@@ -1,14 +1,13 @@
 import {Fragment} from "react";
-import {Grid, Hidden, Typography} from "@material-ui/core";
+import {Grid, Hidden} from "@material-ui/core";
 import styles from "../ui/theme";
-import test from "../assets/test.png";
 
-function About() {
+function Home() {
     const classes = styles();
     return (
         <Fragment>
             <Hidden smDown>
-            <section className="About Small">
+            <section className="Home Small">
                 <Grid container md={12} justify="center" direction="row">
                 
                 </Grid>
@@ -16,7 +15,7 @@ function About() {
             </Hidden>
 
       <Hidden mdUp>
-      <section className="About Medium">
+      <section className="Home Medium">
   
   </section>
   </Hidden>
@@ -24,5 +23,5 @@ function About() {
     );
   }
   
-  export default About;
+  export default Home;
   
