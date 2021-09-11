@@ -71,7 +71,7 @@ import {
     //     fontWeight: "bold",
     //     paddingBottom: "3rem",
     //   },
-    root: {
+    rootMedium: {
         flexGrow: 1,
       },
     menuButton: {
@@ -80,6 +80,13 @@ import {
     title: {
         flexGrow: 1,
       },
+    buttonStyle: {
+        backgroundColor: theme.palette.primary["main"],
+        color: theme.palette.secondary["main"],
+    }
+    // appBar: {
+    //     color: theme.palette.secondary["main"],
+    // }
     })
   );
   

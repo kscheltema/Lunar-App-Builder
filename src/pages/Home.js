@@ -9,18 +9,18 @@ function Home() {
     return (
         <Fragment>
             <Hidden smDown>
-            <section className="root">
+            <section className="rootMedium">
                 <Grid container md={12} justify="center" direction="row">
-<AppBar position="static">
-  <Toolbar>
+<AppBar position="static" variant="contained" color="primary">
+  <Toolbar className={classes.appBar}>
     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
       <MenuIcon />
     </IconButton>
     <Typography variant="h6" className={classes.title}>
       Seth's Poetry
     </Typography>
-    <Button color="inherit">Login</Button>
-    <Button color="inherit">Sing Up</Button>
+    <Button variant="contained" className={classes.buttonStyle}>Login</Button>
+    <Button variant="contained" className={classes.buttonStyle}>Sing Up</Button>
   </Toolbar>
 </AppBar>
                 </Grid>
@@ -28,7 +28,7 @@ function Home() {
             </Hidden>
 
       <Hidden mdUp>
-      <section className="Home Medium">
+      <section className="Home small">
   
   </section>
   </Hidden>
