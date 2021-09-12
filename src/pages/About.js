@@ -1,7 +1,6 @@
 import {Fragment} from "react";
-import {Grid, Hidden, Typography} from "@material-ui/core";
+import {Grid, Hidden} from "@material-ui/core";
 import styles from "../ui/theme";
-import test from "../assets/test.png";
 
 function About() {
     const classes = styles();
