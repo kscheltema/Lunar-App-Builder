@@ -87,10 +87,11 @@ import {
           backgroundColor: "#019cde",
           textDecoration: "underline"
         }
+    },
+    appBar: {
+      backgroundColor: "#fff",
+      color: "#019cde",
     }
-    // appBar: {
-    //     color: theme.palette.secondary["main"],
-    // }
     })
   );
   

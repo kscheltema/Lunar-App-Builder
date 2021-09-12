@@ -16,7 +16,7 @@ function Home() {
     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
       <MenuIcon />
     </IconButton>
-    <Typography variant="h6" className={classes.title}>
+    <Typography variant="h5" className={classes.title}>
       Seth's Poetry
     </Typography>
     <Button variant="contained" className={classes.buttonStyle}>Login</Button>
