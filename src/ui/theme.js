@@ -1,25 +1,22 @@
 import {
-    createTheme,
-    createStyles,
     makeStyles,
   } from "@material-ui/core/styles";
   
-  export const theme = createTheme({
-    palette: {
-      primary: {
-        main: "#019cde",
-      },
-      secondary: {
-        main: "#fff",
-      },
-    },
-    typography: {
-      fontFamily: "Roboto",
-    },
-  });
+  // export const theme = createTheme({
+  //   palette: {
+  //     primary: {
+  //       main: "#019cde",
+  //     },
+  //     secondary: {
+  //       main: "#fff",
+  //     },
+  //   },
+  //   typography: {
+  //     fontFamily: "Roboto",
+  //   },
+  // });
   
-  const styles = makeStyles((theme) =>
-    createStyles({
+  const styles = makeStyles((theme) =>({
     //   bgContainer: {
     //     backgroundPosition: 'center',
     //     backgroundSize: 'cover',
@@ -76,13 +73,20 @@ import {
       },
     menuButton: {
         marginRight: theme.spacing(2),
+        backgroundColor: "inherit",
       },
     title: {
         flexGrow: 1,
       },
     buttonStyle: {
-        backgroundColor: theme.palette.primary["main"],
-        color: theme.palette.secondary["main"],
+        backgroundColor: "#019cde",
+        color: "#fff",
+        marginRight: theme.spacing(2),
+        '&:hover': {
+          boxShadow: 'none',
+          backgroundColor: "#019cde",
+          textDecoration: "underline"
+        }
     }
     // appBar: {
     //     color: theme.palette.secondary["main"],

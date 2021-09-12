@@ -11,7 +11,7 @@ function Home() {
             <Hidden smDown>
             <section className="rootMedium">
                 <Grid container md={12} justify="center" direction="row">
-<AppBar position="static" variant="contained" color="primary">
+<AppBar position="static" variant="contained" color="none">
   <Toolbar className={classes.appBar}>
     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
       <MenuIcon />
