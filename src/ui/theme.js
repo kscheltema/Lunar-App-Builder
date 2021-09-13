@@ -68,6 +68,9 @@ import {
     //     fontWeight: "bold",
     //     paddingBottom: "3rem",
     //   },
+    rootCard: {
+      display: 'flex',
+    },
     rootMedium: {
         flexGrow: 1,
       },
@@ -78,12 +81,16 @@ import {
         marginRight: theme.spacing(2),
         backgroundColor: "inherit",
       },
-      menuButtonSM: {
+    menuButtonSM: {
         marginRight: theme.spacing(0.25),
         backgroundColor: "inherit",
       },
     title: {
         flexGrow: 1,
+      },
+    details: {
+        display: 'flex',
+        flexDirection: 'column',
       },
     buttonStyle: {
         backgroundColor: "#019cde",
