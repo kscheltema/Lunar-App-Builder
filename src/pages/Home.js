@@ -2,6 +2,7 @@ import {Fragment} from "react";
 import {AppBar, Button, Grid, Hidden, IconButton, Toolbar, Typography} from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
 import styles from "../ui/theme";
+import hero from "../assets/book_tea.png"
 
 function Home() {
     const classes = styles();
@@ -21,8 +22,10 @@ function Home() {
     </Typography>
     <Button variant="contained" className={classes.buttonStyle}>Login</Button>
     <Button variant="contained" className={classes.buttonStyle}>Sing Up</Button>
+    <Button variant="contained" className={classes.buttonStyle}>Submit</Button>
   </Toolbar>
 </AppBar>
+<img src={hero} alt="book and tea" className={classes.hero}/>
                 </Grid>
             </section>
             </Hidden>

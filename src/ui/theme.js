@@ -91,6 +91,13 @@ import {
     appBar: {
       backgroundColor: "#fff",
       color: "#019cde",
+    },
+    hero: {
+      // position: 'relative',
+      // display: 'flex',
+      // alignItems: 'baseline',
+      // marginTop: '-100vh',
+      // minHeight: theme.standards.toolbar.heights.mobilePortrait,
     }
     })
   );
