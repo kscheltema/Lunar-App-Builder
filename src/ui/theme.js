@@ -121,7 +121,9 @@ import {
       color: "#019cde",
       minHeight: '15vh',
     },
-
+    cover: {
+      width: 151,
+    },
     hero: {
       // position: 'relative',
       // display: 'flex',
