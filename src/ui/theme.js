@@ -71,8 +71,15 @@ import {
     rootMedium: {
         flexGrow: 1,
       },
-    menuButton: {
+      rootSmall: {
+        flexGrow: 1,
+      },
+    menuButtonMD: {
         marginRight: theme.spacing(2),
+        backgroundColor: "inherit",
+      },
+      menuButtonSM: {
+        marginRight: theme.spacing(0.25),
         backgroundColor: "inherit",
       },
     title: {
@@ -81,17 +88,33 @@ import {
     buttonStyle: {
         backgroundColor: "#019cde",
         color: "#fff",
-        marginRight: theme.spacing(2),
+        margin: theme.spacing(0.75),
         '&:hover': {
           boxShadow: 'none',
           backgroundColor: "#019cde",
           textDecoration: "underline"
         }
     },
+    buttonStyleSM: {
+      backgroundColor: "#019cde",
+      color: "#fff",
+      marginRight: theme.spacing(1),
+      '&:hover': {
+        boxShadow: 'none',
+        backgroundColor: "#019cde",
+        textDecoration: "underline"
+      }
+  },
     appBar: {
       backgroundColor: "#fff",
       color: "#019cde",
     },
+    appBarSM: {
+      backgroundColor: "#fff",
+      color: "#019cde",
+      minHeight: '15vh',
+    },
+
     hero: {
       // position: 'relative',
       // display: 'flex',
