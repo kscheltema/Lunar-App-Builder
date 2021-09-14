@@ -122,7 +122,8 @@ import {
       minHeight: '15vh',
     },
     cover: {
-      width: 151,
+      width: 400,
+      height: 400,
     },
     hero: {
       // position: 'relative',
