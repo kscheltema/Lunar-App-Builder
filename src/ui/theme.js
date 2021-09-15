@@ -74,8 +74,8 @@ padding: '2em',
       minHeight: '15vh',
     },
     cover: {
-      width: 500,
-      height: 500,
+      width: 550,
+      height: 550,
     },
     hero: {
       // position: 'relative',
