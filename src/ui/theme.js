@@ -17,57 +17,9 @@ import {
   // });
   
   const styles = makeStyles((theme) =>({
-    //   bgContainer: {
-    //     backgroundPosition: 'center',
-    //     backgroundSize: 'cover',
-    //     display: 'block',
-    //     position: 'fixed',
-    //     objectFit: 'cover',
-    //     left: '0px',
-    //     width: '100%',
-    //     zIndex: '-1',
-    //     [theme.breakpoints.up('sm')]: {
-    //       backgroundImage: `url('${BgLandscape}')`,
-    //       height: '100%',
-    //     },
-    //     [theme.breakpoints.down('sm')]: {
-    //       height: '100%',
-    //       backgroundImage: `url('${BgPortrait}')`,
-    //     },
-    //   },
-    //   buttonStyle: {
-    //     borderRadius: 10,
-    //     color: theme.palette.secondary["main"],
-    //     backgroundColor: theme.palette.primary["main"],
-    //     padding: "0 0rem",
-    //     width: "50em",
-    //     margin: "0.5rem 0rem 0.5rem 0rem",
-    //     textTransform: "none",
-    //   },
-    //   homeLogo: {
-    //     paddingTop: "1em",
-    //     width: "20em",
-    //   },
-    //   homeText: {
-    //     color: theme.palette.secondary["main"],
-    //   },
-    //   homeMessageMobile: {
-    //     fontSize: 20,
-    //     fontWeight: "bold",
-    //     paddingLeft: "5em",
-    //     paddingRight: "5em",
-    //     paddingBottom: "5em",
-    //     paddingTop: "5em",
-    //   },
-    //   homeMessageSpacing: {
-    //     alignItems: "center",
-    //   },
-    //   copyright: {
-    //     textAlign: "center",
-    //     fontSize: 14,
-    //     fontWeight: "bold",
-    //     paddingBottom: "3rem",
-    //   },
+    title: {
+padding: '2em',
+    },
     rootCard: {
       display: 'flex',
     },
@@ -122,8 +74,8 @@ import {
       minHeight: '15vh',
     },
     cover: {
-      width: 400,
-      height: 400,
+      width: 500,
+      height: 500,
     },
     hero: {
       // position: 'relative',
