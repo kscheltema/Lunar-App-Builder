@@ -2,20 +2,6 @@ import {
     makeStyles,
   } from "@material-ui/core/styles";
   
-  // export const theme = createTheme({
-  //   palette: {
-  //     primary: {
-  //       main: "#019cde",
-  //     },
-  //     secondary: {
-  //       main: "#fff",
-  //     },
-  //   },
-  //   typography: {
-  //     fontFamily: "Roboto",
-  //   },
-  // });
-  
   const styles = makeStyles((theme) =>({
     title: {
 padding: '2em',
@@ -77,16 +63,9 @@ padding: '2em',
       minHeight: '15vh',
     },
     cover: {
-      width: 550,
-      height: 550,
+      width: 590,
+      height: 575, 
     },
-    hero: {
-      // position: 'relative',
-      // display: 'flex',
-      // alignItems: 'baseline',
-      // marginTop: '-100vh',
-      // minHeight: theme.standards.toolbar.heights.mobilePortrait,
-    }
     })
   );
   
