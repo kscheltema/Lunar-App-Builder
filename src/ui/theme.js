@@ -21,10 +21,12 @@ import {
 padding: '2em',
     },
     rootCard: {
-      display: 'flex',
+      display: 'flex'
     },
     rootMedium: {
         flexGrow: 1,
+        paddingTop: "1rem",
+        paddingLeft: "1rem",
       },
       rootSmall: {
         flexGrow: 1,
@@ -39,6 +41,7 @@ padding: '2em',
       },
     title: {
         flexGrow: 1,
+        paddingLeft: "2rem",
       },
     details: {
         display: 'flex',
